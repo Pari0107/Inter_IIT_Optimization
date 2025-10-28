@@ -10,7 +10,9 @@ I saw that the difference in solutions were very different and made some changes
 2. The first UID the priority package go in would be the one with the highest weight - this was done again to keep 
 3. For economy packages, they were changed s.t. the one with highest delay cost would be filled first instead on just going through in order as given in the file.
 4. Compare what is better between taking the penalty vs using a diffferent ULD - the one resulting in minimum added cost will be chosen.
+
 After these changes, I ran both my codes again on actual problem given, and subsets as well, and the results improved by a lot.
+
 The Outputs
 1. For heuristics -- Package_Assignment_Output and UID_Utilization
 2. For MILP -- MILP_Assignment_Output and MILP_UID_Utilization
